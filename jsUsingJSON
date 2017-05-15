@@ -1,0 +1,7 @@
+  $(document).ready(function() {
+    $("#getMessage").on("click", function(){
+      $.getJSON("http://quotesondesign.com/wp-json/posts?",function(data){
+        $(".message").html(JSON.stringify(data));
+      });
+    });
+  });
