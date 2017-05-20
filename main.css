@@ -1,0 +1,23 @@
+body {
+  color: white;
+  font-family: Comfortaa, Verdana;
+  background-image: url("http://i38.photobucket.com/albums/e141/bheinle7/quote-1375855_640_zpsmle6h3vz.png")
+}
+#mainContainer{
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 25px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #006dcc;
+  background-color: gray;
+}
+.row-buffer{
+  margin-top: 20px;
+}
+.btn-buffer{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+#page{
+  background-color: orange;
+}
