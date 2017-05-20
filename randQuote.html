@@ -1,31 +1,36 @@
-<div class="container-fluid">
-  <div class="row text-center">
-    <h2>Random Quote Generator</h2>
-  </div>
-  <div class="row text-center">
-    <div class="col-xs-12 well quote" name="quote" id="quote" type='text'>
-      The Quote Will Appear Here
-    </div>
-  </div>
-  <div class="row text-center">
-    <div class="col-xs-6">
-      <button id="getQuote" class="btn btn-primary">
-        Quote!
-      </button>
+<head>
+  <title>Random Quoter Generator made by Ben Casey</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
 
-    </div>
-    <div class="col-xs-6">
-      <div id="tweet">
-      <a class="twitter-share-button"
-         href="https://twitter.com/share"
-         type="text"
-         data-url= 'willBeUpdated'
-         data-text= "willBeUpdated"
-         data-hashtags="willBeUpdated"
-         data-show-count="false">
-        Tweet
-        </a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<body>
+  <div class="container-fluid">
+    <div class="row justify-content-center row-buffer">
+      <div id="mainContainer" class="col-lg-8">
+        <div id="title" class="row text-center row-buffer">
+          <div class="col-lg-12">
+            <h2>Random Quote Generator</h2>
+          </div>
         </div>
+        <div class="row row-buffer">
+          <div id="quote" class="col-lg-12 text-center">
+            <h3>The Quote Will Appear Here</h3>
+          </div>
+        </div>
+        <div id="buttonRow" class="row justify-content-center row-buffer">
+          <div id="getQuote" class="col-md-2 text-center">
+            <button style="font-family: inherit" class="btn btn-primary btn-buffer" >
+              Quote!
+        </button>
+          </div>
+          <div id="tweet" class="col-md-2 text-center" >
+            <button class="btn btn-primary btn-buffer">
+              <i class="fa fa-twitter"></i>
+        </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</body>
