@@ -2,7 +2,7 @@ $(document).ready(function() {
   var quote = "";
   $("#getQuote").on("click", function() {
     $.ajax({
-      url: "http://quotes.stormconsultancy.co.uk/random.json",
+      url: "https://random-quote-generator.herokuapp.com/api/quotes/random",
       dataType: "json",
       success: function (response) {
         if (response.author) {
